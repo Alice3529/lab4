@@ -8,7 +8,7 @@ using System.Threading.Tasks;
    static class TreeOperations
     {
 
-    public static AVL MUL(AVL tree1, int amount = 0) //умножение 
+    public static AVL MUL(AVL tree1, int amount = 0)
     {
         AVL result = new AVL();
         if (tree1.root == null) { return tree1; }
@@ -34,7 +34,7 @@ using System.Threading.Tasks;
         }
     }
 
-    public static AVL CONCAT(AVL tree1, AVL tree2) // объединение
+    public static AVL CONCAT(AVL tree1, AVL tree2) 
     {
         AVL result = new AVL();
 
@@ -54,7 +54,7 @@ using System.Threading.Tasks;
         return result;
     }
 
-    public static AVL EXCEL(AVL tree1, AVL tree2) // объединение
+    public static AVL EXCEL(AVL tree1, AVL tree2) 
     {
         AVL result = new AVL();
 
